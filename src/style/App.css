@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Uni Sans", sans-serif;
+}
+
+.register {
+  background-image: url("../assets/flat-mountains.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .imgcontainer {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.register form {
+  background-color: #2C2F33;
+  color: #FFFF;
+  border: none;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 40px 60px 40px;
+  -webkit-box-shadow: 20px 20px 12px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 20px 20px 12px 5px rgba(0, 0, 0, 0.6);
+}
+
+.register form .form__header {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.register form .form__header p {
+  letter-spacing: 1.5px;
+}
+
+.register form input[type=email], .register form input[type=password], .register form input[type=text] {
+  background-color: #23272A;
+  border: none;
+  padding: 20px 170px;
+}
+
+.register form input[type=submit] {
+  padding: 20px 170px;
+  background-color: #5865F2;
+  border: none;
+  margin-top: 20px;
+  color: white;
+}
+
+.register form .form__footer {
+  color: #5865F2;
+}
+
+.register form .form__footer p {
+  margin-top: 10px;
+}
+
+.login {
+  background-image: url("../assets/flat-mountains.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .imgcontainer {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.login form {
+  background-color: #2C2F33;
+  color: #FFFF;
+  border: none;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 40px 60px 40px;
+  -webkit-box-shadow: 20px 20px 12px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 20px 20px 12px 5px rgba(0, 0, 0, 0.6);
+}
+
+.login form .form__header {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.login form .form__header p {
+  letter-spacing: 1.5px;
+}
+
+.login form input[type=email], .login form input[type=password] {
+  background-color: #23272A;
+  border: none;
+  padding: 20px 170px;
+}
+
+.login form input[type=submit] {
+  padding: 20px 170px;
+  background-color: #5865F2;
+  border: none;
+  margin-top: 20px;
+  color: white;
+}
+
+.login form .form__footer {
+  color: #5865F2;
+}
+
+.login form .form__footer p {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=App.css.map */
